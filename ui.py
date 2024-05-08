@@ -32,7 +32,6 @@ with st.sidebar:
     }
     )
 logo = Image.open('uitm.png')
-profile = Image.open('syafiq.png')
 svr_img = Image.open('svr.png')
 lstm_img = Image.open('lstm.png')
 
@@ -268,7 +267,7 @@ elif choose == "About":
     with col2:               # To display uitm logo
         st.image(logo, width=130 )
 
-    st.image(profile, width=130 )
+    
 
     st.write("\n\nMy name is Muhammad Syafiq Bin Ismail Reduan from Group CS2306B. This is my web application for my Final Year Project (FYP) titled Stock Price Prediction Using Support Vector Regression and Long SHort-Term Memory.")
 
